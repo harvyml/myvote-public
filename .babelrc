@@ -1,0 +1,26 @@
+{
+	"presets": [
+		"es2015", "react"
+    ],
+    "env": {
+        "production": {
+            "presets": ["minify"]
+        }
+    },
+	"plugins": [
+        [
+            "css-modules-transform", {
+                "extractCss": {
+                    "dir": "/",
+                    "relativeRoot": "./src/",
+                    "filename": "functions/[name].css"
+                }
+            }
+        ]
+    ],
+    "ignore": [
+        "node_modules",
+        "pulse-editor/node_modules",
+        "/node_modules/"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+  "confuegoenlospies" : {
+    "4" : "harvyestebanml@gmail.com",
+    "8" : "bewdevs@gmail.com",
+    "12" : "harvyestebanml@gmail.com",
+    "16" : "harvyestebanml@gmail.com",
+    "20" : "fuproducciones@gmail.com",
+    "24" : "fuproducciones@gmail.com",
+    "28" : "fuproducciones@gmail.com",
+    "32" : "harvyestebanml@gmail.com",
+    "36" : "harvyestebanml@gmail.com",
+    "40" : "harvyestebanml@gmail.com",
+    "44" : "harvyestebanml@gmail.com",
+    "48" : "bewdevs@gmail.com",
+    "52" : "harvyestebanml@gmail.com",
+    "123458" : "someone@gmail.com",
+    "123460" : "harvyestebanml@gmail.com",
+    "123462" : "some@gmail.com",
+    "123464" : "bewdevs@gmail.com",
+    "123466" : "y@gmail.com",
+    "123468" : "harvyestebanml@gmail.com",
+    "123472" : "bewdevs@gmail.com",
+    "123476" : "bewdevs@gmail.com",
+    "123480" : "harvyestebanml@gmail.com",
+    "123484" : "harvyestebanml@gmail.com",
+    "123488" : "harvyestebanml@gmail.com",
+    "123492" : "harvyestebanml@gmail.com",
+    "123496" : "harvyestebanml@gmail.com",
+    "158903" : "harvyestebanml@gmail.com",
+    "158907" : "harvyestebanml@gmail.com",
+    "158911" : "bewdevs@gmail.com",
+    "1245876" : "bewdevs@gmail.com",
+    "1245880" : "fuproducciones@gmail.com",
+    "1245884" : "webworks2018@gmail.com",
+    "1245888" : "webworks2018@gmail.com",
+    "1245892" : "harvyestebanml@gmail.com",
+    "1245896" : "harvyestebanml@gmail.com",
+    "1245900" : "harvyestebanml@gmail.com",
+    "1245904" : "fuproducciones@gmail.com",
+    "1245908" : "fuproducciones@gmail.com"
+  },
+  "contests" : {
+    "a1b2c3" : {
+      "contestCode" : "a1b2c3",
+      "name" : "Salsa Fire",
+      "participants" : {
+        "100000003" : "Tatiana Linares"
+      }
+    },
+    "a2b3c4" : {
+      "contestCode" : "a2b3c4",
+      "name" : "Flying Salsa",
+      "participants" : {
+        "100000004" : "The Eagles"
+      }
+    }
+  },
+  "users" : [ null, {
+    "code" : 100000001,
+    "contestCode" : "a1b2c3",
+    "email" : "anyelaospina12@gmail.com",
+    "name" : "Anyela Ospina",
+    "rol" : 1
+  }, {
+    "code" : 100000002,
+    "email" : "jeovanaleytontapia@gmail.com",
+    "evaluated" : {
+      "a1b2c3" : {
+        "100000001" : 10
+      }
+    },
+    "name" : "Jeovana Leyton",
+    "rol" : 2
+  }, {
+    "code" : 100000003,
+    "email" : "tatianalinaresleyton@gmail.com",
+    "name" : "Tatiana Linares",
+    "rol" : 3,
+    "scores" : {
+      "a1b2c3" : {
+        "100000002" : 10
+      }
+    }
+  }, {
+    "code" : 100000004,
+    "email" : "theeagles@gmail.com",
+    "name" : "The Eagles",
+    "participants" : {
+      "100000005" : "Harvy Mosquera"
+    },
+    "rol" : 4,
+    "scores" : {
+      "a2b3c4" : {
+        "100000002" : 7
+      }
+    }
+  }, {
+    "code" : 100000004,
+    "email" : "harvy@gmail.com",
+    "name" : "Harvy Mosquera",
+    "rol" : 5
+  } ]
+}

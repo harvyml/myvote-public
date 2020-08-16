@@ -1,0 +1,80 @@
+{
+  "contest" : {
+    "a10203040" : {
+      "13579254" : {
+        "code" : 13579254,
+        "email" : "webworks2018@gmail.com",
+        "key" : "-M2o4pvDOzV6zjBR3faJ",
+        "name" : "The Eagles",
+        "participants" : {
+          "13579250" : "Harvy Esteban Mosquera Leyton",
+          "13579258" : "Harvy Esteban Mosquera Leyton"
+        },
+        "phone" : "3154572727",
+        "rol" : 4
+      },
+      "13579262" : {
+        "code" : 13579262,
+        "email" : "harvyestebanml@gmail.com",
+        "key" : "-M2p1Q8VZUEjVmpaTIOg",
+        "name" : "Cali Salsa",
+        "participants" : {
+          "13579258" : "Harvy Esteban Mosquera Leyton"
+        },
+        "phone" : "3154572727",
+        "rol" : 4
+      },
+      "info" : {
+        "description" : "Concurso mas grande de salsa en el mundo",
+        "name" : "Con Fuego En Los Pies",
+        "categories" : [ null, "Soloist", "Couples", "Duos", "Salsa Men's", "Salsa Ladies", "Small Team", "Team" ]
+      }
+    }
+  },
+  "users" : {
+    "13579250" : {
+      "code" : 13579250,
+      "contest" : "a10203040",
+      "email" : "harvyestebanml@gmail.com",
+      "key" : "-M2o4ezM8RR8UDrGsi_m",
+      "name" : "Harvy Esteban Mosquera Leyton",
+      "phone" : "3154572727",
+      "rol" : 3
+    },
+    "13579254" : {
+      "code" : 13579254,
+      "contest" : "a10203040",
+      "email" : "webworks2018@gmail.com",
+      "key" : "-M2o4pvDOzV6zjBR3faJ",
+      "name" : "The Eagles",
+      "phone" : "3154572727",
+      "rol" : 4,
+      "scores" : {
+        "24681012" : 10,
+        "24681015" : 7
+      }
+    },
+    "13579258" : {
+      "code" : 13579258,
+      "contest" : "a10203040",
+      "email" : "harvyestebanml@gmail.com",
+      "key" : "-M2p0wyh2f_l3qWNAEoe",
+      "name" : "Harvy Esteban Mosquera Leyton",
+      "phone" : "3154572727",
+      "rol" : 3
+    },
+    "13579262" : {
+      "code" : 13579262,
+      "contest" : "a10203040",
+      "email" : "harvyestebanml@gmail.com",
+      "key" : "-M2p1Q8VZUEjVmpaTIOg",
+      "name" : "Cali Salsa",
+      "phone" : "3154572727",
+      "rol" : 4,
+      "scores" : {
+        "24681018" : 5,
+        "24681021" : 6
+      }
+    }
+  }
+}

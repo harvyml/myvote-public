@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colored: #f4811c;
+  }  
+
+.blog-pages{
+    padding: 7px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}.blog-pages ul{
+    display: flex;
+    background: white !important;
+    border-radius: 5px;
+    width: max-content; /*fit-content varies between max-content and min-content depending on the screen´s width*/
+    margin: auto;
+    justify-content: center;
+    padding: inherit;
+}
+.blog-pages .tohover{
+    padding: 10px 5px;
+    margin: 0 auto;
+    transition: all .2s ease;
+}.blog-pages .tohover:hover{
+    padding: 10px 5px;
+    margin: 0 auto;
+    background: #F4821C;
+    color: white;
+}.blog-pages .more-content{
+    margin: auto 3px;
+}
+
+.post h1, h2, h3, h4, h5, h6 {
+    font-size: 2.5em;
+    margin: 10px auto;
+}
+.posts-container{
+    display: block;
+}
+
+.post-to-enter{
+    cursor: pointer;
+    transition: 0.2s all ease;
+    width: 90%;
+    margin: 30px auto;
+  }
+.post-to-enter:nth-child(1){
+    margin: 0px auto !important;
+}.post-to-enter:hover{
+    box-shadow: 0 2px 2px 0 var(--colored), 0 3px 1px -2px var(--colored), 0 1px 5px 0 var(--colored);
+  }
+
+.tweets-container{
+    transition: all 0.3s ease;
+    z-index: -999;
+}
+.tweets{
+    width: 100%;
+    margin-top: 30px;
+}.tweets .twitter-timeline{
+    width: 100%;
+}
+  /*---------------------------------*/
+  /*--------------------------------*/
+
+.social-media-blog-posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media-blog-posts ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media-blog-posts ul li{
+    margin: auto 10px;
+}
+@media only screen and (max-width: 895px){
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.3em;
+    }.post h1{
+        font-weight: bold;
+    }
+    .blog-pages ul{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .blog-pages ul{
+        width: 100%;
+    }
+}

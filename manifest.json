@@ -1,0 +1,11 @@
+{
+  "name": "harvymosquera.com",
+  "short_name": "Harvy Mosquera",
+  "theme_color": "#f4811c",
+  "background_color": "#f4811c",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": null,
+  "splash_pages": null
+}

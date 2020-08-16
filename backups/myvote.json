@@ -1,0 +1,70 @@
+{
+	"users":{
+		"1":{
+			"email": "anyelaospina12@gmail.com",
+			"name": "Anyela Ospina",
+			"rol": 1,//Manager
+			"contestCode": "a1b2c3",
+			"personalCode": "100000001"
+		},
+		"2":{
+			"email": "jeovanaleytontapia@gmail.com",
+			"name": "Jeovana Leyton",
+			"rol": 2,//Judge
+			"personalCode": "100000002",
+			"evaluated": {
+				"a1b2c3": {
+					"100000001": 10, //The jugdes don't have contestCode because they are not the creators of the 
+									//contest, to look what contests their in you have to do a .ref(contests).equalTo("personalCode")
+				}
+			}
+		},
+		"3":{
+			"email": "tatianalinaresleyton@gmail.com",
+			"name": "Tatiana Linares",
+			"rol": 3,//Participant				//Search depending on rol
+			"personalCode": "100000003",
+			"scores":{
+				"a1b2c3": {
+					"100000002": 10
+				}
+			}
+		},
+		"4":{
+			"email": "theeagles@gmail.com",
+			"name": "The Eagles",
+			"rol": 4,//Team 
+			"personalCode": 100000004,
+			"participants":{
+				"100000005": "Harvy Mosquera"
+			},
+			"scores":{
+				"a2b3c4":{
+					"100000002": 7
+				}
+			}
+		},
+		"5":{
+			"email": "harvy@gmail.com",
+			"name": "Harvy Mosquera",
+			"rol": 5,// Team Member
+			"personalCode": 100000004 // Same as the groups personal code because it is the same profile that they'll be redirected to,
+		}
+	},
+	"contests":{
+		"a1b2c3":{
+			"name": "Salsa Fire",
+			"contestCode": "a1b2c3",
+			"participants":{
+				"100000003": "Tatiana Linares"
+			}
+		},
+		"a2b3c4":{
+			"name": "Flying Salsa",
+			"contestCode": "a2b3c4",
+			"participants": {
+				"100000004": "The Eagles"
+			}
+		}
+	}
+}

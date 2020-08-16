@@ -1,0 +1,100 @@
+img{
+	width: 100%;
+	margin: 10px auto;
+}.img-icon{
+	width: 50%;
+	margin: 10px auto;
+}
+:root{
+	--font-defined: 17px;
+	--colored: #f4811c;
+};
+.col{
+	margin: 0;
+	padding: 0;
+}
+
+.main-content{
+	margin-top: 75px;
+}.social-media{
+	height: 40%;
+	width: 8.33333333333%;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+}
+.comment:nth-child(1){
+	margin-top: 50px !important;
+}
+.comment h1, .comment h2, .comment h3, .comment h4, .comment h5{
+	font-size: 1.0em;
+	font-weight: bold;
+}
+.comment{
+	margin: 5px auto;
+	border: none;
+	padding: 10px;
+	background: white;
+	transition: all 1s ease;
+}.comment .user-info .user-img{
+	width: 30px;
+}.user-info, .markdown{
+	width: 100%;
+}.user-info{
+	text-align: left;
+	display: flex;
+	flex-wrap: wrap;
+}.user-info .username h5{
+	font-size: 1em !important;
+	font-weight: bold;
+}.user-info div{
+	margin: auto 5px;
+}.user-info h5{
+	margin: auto !important;
+}.markdown:first-child h1, h2, h3, h4, h5, h6, p{
+	margin: 0 !important;
+}
+/*====== Main Project ==========*/
+.project-container, .project-resources-info{
+	padding: 0px 25px !important;
+	box-sizing: border-box;
+  }
+  
+  .project-container .project{
+	width: 100%;
+	border-radius: 10px;
+	margin: 0px auto;
+  }
+  .sub-wide-bar{
+	color: var(--grey);
+  }
+  .not-padding{
+	padding: 0px !important;/**/
+  }
+  .container-aside-projects .project img {
+    width: 125px;
+    max-height: 125px;
+    margin: auto 10px auto 0px;
+}
+.project-container .project img{
+	margin: auto auto !important;
+}
+  /*==================================*/
+
+/*========== rosources info ==============*/
+.container-project-resources-info{
+	box-sizing: border-box;
+	border-top: 5px solid var(--colored);
+	padding: 20px 0;
+}.container-project-resources-info > *:not(:nth-child(1)){
+	padding: 10px 0;
+}.resources-info .amount-info *:not(.title-amount-collected){
+	margin: 10px 0 !important;
+}
+.container-invest-button .invest-button{
+	background: var(--colored);
+	width: -webkit-fill-available;
+}
+.separated-from-top{
+	margin-top: 50px;
+}

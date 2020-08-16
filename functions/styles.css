@@ -1,0 +1,213 @@
+/*App.css part */
+/*Colores para la app
+#FFF = Blanco
+#7EFE5C = Verde claro
+#a3ff8a = Verde aun mas claro
+#cbffbe = Verde de Fondo
+#c7ffba = verde del main-container
+*/
+
+.anim-appear {
+  opacity: 0.01;
+}
+
+.anim-appear.anim-appear-active{
+  opacity: 2;
+  transition: opacity 0.5s ease-in;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.con-logo{
+  font-size: 35px;
+}
+
+.App-header {
+  background-color: #cbffbe;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.top-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}.bottom-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}.top-left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}.bottom-left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+nav{
+  background: white;
+  width: 100%;
+}
+
+nav ul li a{
+  color: #7EFE5C;
+}
+
+.app-content{
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-info li{
+  margin: auto 10px;
+}
+
+.user-info .profile-photo{
+  width: 50px;
+  box-sizing: border-box;
+  padding: 5px;
+  max-height: 40px;
+}
+
+.user-info .profile-photo img{
+  width: 100%;
+  margin: auto;
+}
+
+.main-container{
+  color: black;
+  margin: 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/*Posting section*/
+.button-to-show{
+  margin: auto auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.Content{
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.Content:focus{
+  outline: none;
+  border-bottom: 1px solid #7EFE5C;
+}
+
+#post-img-button-hidden{
+  display: none;
+}
+/*---------------*/
+
+.main-container .col.cards{
+  /*background: #a3ff8a;*/
+  margin: auto auto;
+  width: 90%;
+  color: #0f0f0f;
+}
+
+.card-poster-info{
+  display: flex;
+  max-height: 50px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.card-poster-info img{
+  width: 30px;
+}
+
+.card-poster-info li{
+  list-style: none;
+}
+
+.card-poster-info li:nth-child(2){
+  margin: 5px 10px;
+}
+
+.card-content{
+  background: #f0f0f0;
+  height: auto;
+}
+
+.card-text p{
+  text-align: justify;
+  padding: 5px 10px;
+}
+
+.main-container .title{
+  margin: 20px auto;
+}
+
+.con-logo{
+  margin: auto 30px;
+  width: 60px;
+}
+
+.con-logo img{
+  width: 60px;
+}
+
+
+/* User on Logout */
+
+.on-logout .btn-signin{
+  background: #a3ff8a;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.on-logout .btn-signin:hover{
+  background: white;
+  color: #a3ff8a;
+}
+/*================================*/
+
+/*index.css Part*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*=================================*/
+/*Trees.css Part*/
+@media only screen and (max-width: 1200px){
+  .cards .card{
+    width: 100%;
+  }
+}
+/*===================================*/

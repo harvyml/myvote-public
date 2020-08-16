@@ -1,0 +1,68 @@
+{
+  "confuegoenlospies" : {
+    "123458" : "someone@gmail.com",
+    "123462" : "some@gmail.com",
+    "123466" : "y@gmail.com"
+  },
+  "contests" : {
+    "a1b2c3" : {
+      "contestCode" : "a1b2c3",
+      "name" : "Salsa Fire",
+      "participants" : {
+        "100000003" : "Tatiana Linares"
+      }
+    },
+    "a2b3c4" : {
+      "contestCode" : "a2b3c4",
+      "name" : "Flying Salsa",
+      "participants" : {
+        "100000004" : "The Eagles"
+      }
+    }
+  },
+  "users" : [ null, {
+    "contestCode" : "a1b2c3",
+    "email" : "anyelaospina12@gmail.com",
+    "name" : "Anyela Ospina",
+    "code" : "100000001",
+    "rol" : 1
+  }, {
+    "email" : "jeovanaleytontapia@gmail.com",
+    "evaluated" : {
+      "a1b2c3" : {
+        "100000001" : 10
+      }
+    },
+    "name" : "Jeovana Leyton",
+    "code" : "100000002",
+    "rol" : 2
+  }, {
+    "email" : "tatianalinaresleyton@gmail.com",
+    "name" : "Tatiana Linares",
+    "code" : "100000003",
+    "rol" : 3,
+    "scores" : {
+      "a1b2c3" : {
+        "100000002" : 10
+      }
+    }
+  }, {
+    "email" : "theeagles@gmail.com",
+    "name" : "The Eagles",
+    "participants" : {
+      "100000005" : "Harvy Mosquera"
+    },
+    "code" : 100000004,
+    "rol" : 4,
+    "scores" : {
+      "a2b3c4" : {
+        "100000002" : 7
+      }
+    }
+  }, {
+    "email" : "harvy@gmail.com",
+    "name" : "Harvy Mosquera",
+    "code" : 100000004,
+    "rol" : 5
+  } ]
+}

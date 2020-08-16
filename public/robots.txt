@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /admin
+
+User-agent: bingbot
+Disallow: /admin
+
+User-agent: *
+Disallow: /admin
+
+sitemap: https://harvymosquera.co/sitemap.xml
